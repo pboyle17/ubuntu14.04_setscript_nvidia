@@ -18,10 +18,14 @@ echo ------------------------------------------
 sudo add-apt-repository ppa:xorg-edgers/ppa -y
 sudo apt-get update
 sudo apt-get install nvidia-current -y
-echo nvida drivers now updated 
+echo nvida drivers now updated
 echo -----------------------------------------
 echo -----------------------------------------
 sudo apt-get install git -y
 echo downloading xclip to copy contents of files to your clipboard
 sudo apt-get install xclip
-
+echo installing atom
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt-get update
+sudo apt-get install atom
+echo atom installed!!

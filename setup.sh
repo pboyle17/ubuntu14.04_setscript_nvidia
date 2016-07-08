@@ -31,3 +31,5 @@ sudo apt-get install atom
 echo atom installed!!
 echo renaming lowercase directory names
 mv Desktop/ desktop && mv Downloads/ downloads && mv Music/ music && mv Pictures/ pictures && mv Public/ public && mv Templates/ templates && mv Videos/ videos
+sudo add-apt-repository ppa:pipelight/stable
+sudo apt-get update && sudo apt-get install pipelight-multi
